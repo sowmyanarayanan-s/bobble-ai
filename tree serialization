@@ -1,0 +1,11 @@
+def sortedSentence(Sentence): 
+    s = Sentence.split(" ") 
+    s.sort() 
+    newSentence = " ".join(s) 
+    return newSentence 
+  
+
+  
+Sentence = "india won the match"
+print(sortedSentence(Sentence)) 
+  
